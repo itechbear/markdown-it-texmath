@@ -339,5 +339,4 @@ texmath.rules = {
     }
 };
 
-if (typeof module === "object" && module.exports)
-   module.exports = texmath;
+export { texmath }
